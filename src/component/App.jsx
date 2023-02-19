@@ -6,17 +6,13 @@ import { Medals } from './Medals.jsx';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <div className="imagen">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Esta es mi primera APP de react hecha por mi mismo desde cero.
-        </p>
-      </header>
+      </div>
       <div className="Aside">
         <Bio />
         <Medals />
       </div>
-      
     </div>
   );
 }

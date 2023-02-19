@@ -12,6 +12,13 @@ ul{
 .navegacion {
   display:flex;
   justify-content: space-between;
+  height: 2rem;
+}
+.nav-boton{
+  margin-right:2%;
 }
 
-
+.footer{
+  margin:auto;
+  text-align: center;
+}

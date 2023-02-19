@@ -1,10 +1,10 @@
 import React from "react";
+import '../index.css';
 
 export const Footer = () => (
-	<footer className="footer mt-auto py-3 text-center">
+	<footer className="footer">
 		<p>
-			Made with <i className="fa fa-heart text-danger" /> by{" "}Solracort
-			
+			Made with  by Solracort
 		</p>
 	</footer>
 );
