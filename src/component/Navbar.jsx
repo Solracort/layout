@@ -13,7 +13,7 @@ export const Navbar = () => {
 				<Link className="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="/" role="button" aria-expanded="true">Favorites</Link>
 				<ul className="dropdown-menu">
 					<li >
-						<button onClick="#">x</button>
+						{/* <button onClick="">x</button> */}
 					</li>
 					
 				</ul>

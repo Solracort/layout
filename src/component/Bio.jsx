@@ -1,16 +1,16 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+// import { useParams } from "react-router-dom";
 import '../../src/App.css'
 
 
 export const Bio = () => {
-   const params = useParams()
+//    const params = useParams()
 	return (
         <div className="container">
 		        <h1>CARLOS ORTIZ SANCHEZ</h1> 
                 <h3>Description </h3>
                 <hr/>
-                <p classname="bioclass">
+                <p className="bioclass">
                 Ando a la busqueda de una empresa de desarrollo software original y diferente. Yo me considero también diferente. 
                 Tengo una carrera contrastada en el sector del Procurement y Supply Chain, tambien en banca comercial pero 
                 lo que me gusta realmente es sacar mi parte creativa como Software Developer y es por eso que actualmente me estoy 
