@@ -4,7 +4,7 @@ import '../index.css';
 export const Footer = () => (
 	<div className="footer">
 		<p>
-			Made with  by Solracort
+			Made by Solracort
 		</p>
 	</div>
 );

@@ -4,8 +4,11 @@
   width:100%;
   background-color: #282c34;
   color: white;
+  margin:0;
 }
-
+.Aside{
+  margin:0;
+}
 .imagen{
   margin: 2%;
   width:100%;
