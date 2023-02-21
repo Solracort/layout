@@ -1,3 +1,4 @@
+import React from "react";
 import '../../src/App.css'
 import BIOPIC from '../resources/pictures/DSC07352.jpg'
 import {Redes} from './Redes.jsx'
