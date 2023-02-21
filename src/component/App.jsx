@@ -1,7 +1,7 @@
 import React from "react";
 import '../../src/App.css'
 import { Bio } from './Bio.jsx';
-import { Mainpic } from './Mainpic.jsx'
+import { Mainpic } from './Mainpic2.jsx'
 import { Medals } from './Medals.jsx';
 
 function App() {
