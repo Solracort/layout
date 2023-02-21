@@ -1,7 +1,6 @@
 import '../../src/App.css'
 import { Bio } from './Bio.jsx';
-import {Mainpic} from './Mainpic.jsx'
-
+import { Mainpic } from './Mainpic.jsx'
 import { Medals } from './Medals.jsx';
 
 function App() {
