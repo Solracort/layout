@@ -1,15 +1,13 @@
 //import logo from '../../public/pictures/DSC07352.jpg';
 import '../../src/App.css'
 import { Bio } from './Bio.jsx';
-import BIOPIC from '../resources/DSC07352.jpg'
+import {Mainpic} from './mainpic.jsx'
 import { Medals } from './Medals.jsx';
 
 function App() {
   return (
     <div className="App">
-      <div className="imagen">
-        <img src={BIOPIC} className="App-logo" alt="logo" />
-      </div>
+      <Mainpic />
       <div className="Aside">
         <Bio />
         <Medals />
@@ -17,5 +15,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
