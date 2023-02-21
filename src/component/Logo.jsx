@@ -1,3 +1,4 @@
+import React from "react";
 import '../../src/App.css';
 import Bootstrap from '../resources/pictures/Bootstrap.png'
 import C from '../resources/pictures/C.png'
