@@ -1,10 +1,7 @@
 import React from "react";
-// import { useParams } from "react-router-dom";
 import '../../src/App.css'
 
-
 export const Bio = () => {
-//    const params = useParams()
 	return (
         <div className="container">
 		        <h1>CARLOS ORTIZ SANCHEZ</h1> 
@@ -19,7 +16,6 @@ export const Bio = () => {
                 tengo muchas ganas de avanzar y progresar y puedo aportar experiencia en muchos ámbitos, como dije al principio, no soy igual a los demás, soy diferente. 
                 ¿Creéis qué podría encajar? Hablemos.
                 </p> 
-           
         </div>
 	);
 };

@@ -9,13 +9,12 @@ return(
 		<div>
 			<h2>Tecnologías</h2>
 		</div>
-		<div className="skills">
-		<ul>
+		<ul className="tecno">
 		{tech.map((item, index)=>
-								<li key={item}><Carrusel  id={index} name={item}  />{item}</li>
+			<li key={item}>  <Carrusel  id={index} name={item}  /> </li>
         )}
 		</ul>  				
-		</div>
+
 	</div>	
 	);	
 }

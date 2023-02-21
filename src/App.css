@@ -17,6 +17,10 @@
 .App-logo{
   width:100%;
 }
+.netbutton{
+  margin:5%;
+  width:5rem;
+}
 .bioclass{
   text-align: left;
 }
@@ -24,9 +28,13 @@
 .skills{
   display:flex;
   margin: auto;
-  }
+}
+.container, li {
+  display:inline;
+}  
 .logoStyle{
   width:5rem;
   height:5rem;
+  margin:1%;
   background-color: #282c34;
 }

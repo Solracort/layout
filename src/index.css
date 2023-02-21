@@ -3,17 +3,35 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen','Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #282c34;
+  background-image: url('./resources/pictures/playa.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  
 }
 ul{
   list-style: none;
 }
 .navegacion {
+  font-weight: bold;
   display:flex;
+  align-items: center;
   justify-content: space-between;
-  height: 2rem;
+  height: 3rem;
   background-color: skyblue;
   margin-top: 0%;
+  margin-bottom:0%;
+}
+#inicio{
+  align-items:center;
+  margin-top: 10%;
+}
+#casita{
+  height: 2rem;
+  margin:2%;
+  padding:1%;
+}
+.nav-item{
+  display:flex;
 }
 .nav-boton{
   margin-right:2%;
@@ -22,12 +40,13 @@ ul{
 .footer{
   margin:auto;
   text-align: center;
+  color: blue; 
+  font-weight: bold;
+  font-size: larger;
 }
 .container_home{
   margin:0;
   height:100vh;
  
-  background-image: url('./resources/pictures/playa.png');
-  background-repeat: no-repeat;
-  background-size: cover;
+  
 }
