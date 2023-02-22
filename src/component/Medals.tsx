@@ -1,6 +1,6 @@
 import React from "react";
 import '../../src/App.css'
-import {Carrusel} from './Logo.jsx'
+import {Carrusel} from './Logo'
 export const Medals = () => {
 	const tech = ["HTML5", "CSS3", "BootStrap", "Git","Github","JavaScript", "React", "SQL", "Python", "Flask","C"]
 	
