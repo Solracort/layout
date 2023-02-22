@@ -4,8 +4,8 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import App from './component/App';
 import { Home } from "./views/home";
 import { Bio } from "./component/Bio";
-import { Navbar } from "./component/Navbar.jsx";
-import { Footer } from "./component/Footer.jsx";
+import { Navbar } from "./component/Navbar";
+import { Footer } from "./component/Footer";
 
 //create your first component
 const Layout = () => {

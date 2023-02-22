@@ -5,7 +5,7 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 
 
-import Layout from './layout.js' 
+import Layout from './layout' 
 
 const root = ReactDOM.createRoot(document.getElementById('root')as HTMLElement);
 root.render(

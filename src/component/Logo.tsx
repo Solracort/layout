@@ -11,9 +11,12 @@ import JavaScript from '../resources/pictures/JavaScript.png'
 import Python from '../resources/pictures/Python.png'
 import ReactLogo from '../resources/pictures/React.png'
 import SQL from '../resources/pictures/SQL.png'
-
-export const Carrusel = (props) => {
-    function EscogeImagen(num){
+interface Props {
+    id: number;
+    name: string;
+    }
+export const Carrusel = (props: Props) => {
+    function EscogeImagen(num:number){
         
         if (num===0)    {return HTML5}
         else if(num===1){return CSS3}

@@ -1,8 +1,8 @@
 import React from "react";
 import '../../src/App.css'
-import { Bio } from './Bio.jsx';
-import { Mainpic } from './Mainpic2.jsx'
-import { Medals } from './Medals.jsx';
+import { Bio } from './Bio';
+import { Mainpic } from './Mainpic2'
+import { Medals } from './Medals';
 
 function App() {
   return (
