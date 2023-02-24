@@ -11,9 +11,9 @@ export const Navbar = () => {
 				<img id="casita" src={Inicio} alt="Home"/><span id="inicio">Home</span>
 			</a>
 			</li>
-			<li key="1">ENGLISH</li>
+			<li key="1">ENGLISH version</li>
 			<li key="2" className="nav-boton">
-				<a className="nav-link" href="../resources/ENGLISH RESUME.pdf" role="button" download="ENGLISH RESUME.pdf">CV</a>
+				<a className="nav-link" rel="noreferrer" target="_blank" href="https://drive.google.com/file/d/1nRdh5nP7EC53lw4EtUeMUitk_2PwEY11/view?usp=sharing" role="button" >CV</a>
 			</li>
 		</ul>
 	);
