@@ -16,7 +16,7 @@ export const Spanish = () => {
                                 Lo que realmente me gusta es sacar mi lado creativo como Desarrollador de Software y por eso actualmente estoy
                                 replanteando mis objetivos laborales hacia el mundo Tech en general y el Desarrollo Software en particular.
                                 El año pasado, decidí volver al desarrollo web y concentrarme en aprender varias nuevas tecnologías.
-                                No soy un Jr propiamente dicho, aunque busco llegar a un equipo en el que aprender, progresar y consolidarme como parte importante,
+                                No soy un Jr propiamente dicho, aunque busco llegar a un equipo en el que aprender, progresar y consolidarme como parte importante.
                                 Tengo muchas ganas de avanzar y progresar y puedo aportar experiencia en muchas áreas, como dije al principio,
                                 No soy igual a los demás, soy diferente. ¿Crees que yo podría encajar con vosotros? Hablemos.
                         </p> 
