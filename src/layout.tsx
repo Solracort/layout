@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import App from './component/App';
-import { Home } from "./views/home";
+// import { Home } from "./views/home";
 import { Bio } from "./component/Bio";
 import { Navbar } from "./component/Navbar";
 import { Footer } from "./component/Footer";
@@ -18,8 +18,9 @@ const Layout = () => {
 					<Navbar />
                     <App />
 					<Routes>
+						
 						<Route path="/bio/:lang" element={<Bio />} />
-						<Route path="/" element={<Home />} />
+						{/* <Route path="/" element={<Home />} /> */}
 						{/* <Route path="*" element={<h1>Not found!</h1>} />	 */}
 					</Routes>
 					<Footer />
