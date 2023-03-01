@@ -7,7 +7,7 @@ import { Medals } from './Medals';
 function App() {
   return (
     <div className="App">
-      <Mainpic />
+        <Mainpic />
       <div className="Aside">
         <Bio />
         <Medals />
