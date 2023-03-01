@@ -18,7 +18,6 @@ const Layout = () => {
 					<Navbar />
                     <App />
 					<Routes>
-						
 						<Route path="/bio/:lang" element={<Bio />} />
 						{/* <Route path="/" element={<Home />} /> */}
 						{/* <Route path="*" element={<h1>Not found!</h1>} />	 */}
