@@ -16,10 +16,9 @@ const Layout = () => {
 		<div className="principal">
 			<BrowserRouter basename={basename}>
 					<Navbar />
-                    <App />
 					<Routes>
-						<Route path="/bio/:lang" element={<Bio />} />
-						{/* <Route path="/" element={<Home />} /> */}
+						<Route path="/bio/:lang" element={<App />} />
+						<Route path="/" element={<App />} />
 						{/* <Route path="*" element={<h1>Not found!</h1>} />	 */}
 					</Routes>
 					<Footer />

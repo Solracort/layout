@@ -7,7 +7,7 @@ export const Navbar = () => {
 	return (
 		<ul className="navegacion">
 			<li key="0" className="nav-item">
-			<a className="nav-link" href="../../public/index.html" role="button">
+			<a className="nav-link" href="/" role="button">
 				<img id="casita" src={Inicio} alt="Home"/><span id="inicio">Home</span>
 			</a>
 			</li>
