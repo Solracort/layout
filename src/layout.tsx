@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import App from './component/App';
 // import { Home } from "./views/home";
-import { Bio } from "./component/Bio";
+// import { Bio } from "./component/Bio";
 import { Navbar } from "./component/Navbar";
 import { Footer } from "./component/Footer";
 
@@ -16,10 +16,9 @@ const Layout = () => {
 		<div className="principal">
 			<BrowserRouter basename={basename}>
 					<Navbar />
-                    <App />
 					<Routes>
-						<Route path="/bio/:lang" element={<Bio />} />
-						{/* <Route path="/" element={<Home />} /> */}
+						<Route path="/Bio/:lang" element={<App />} />
+						<Route path="/" element={<App />} />
 						{/* <Route path="*" element={<h1>Not found!</h1>} />	 */}
 					</Routes>
 					<Footer />
