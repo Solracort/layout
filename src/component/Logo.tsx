@@ -33,7 +33,7 @@ export const Carrusel = (props: Props) => {
         return 
     }
 return(
-	<div className="container text-center">
+	<div className="d-inline text-center">
 		 <img className="logoStyle" src={EscogeImagen(props.id)} alt="NO LOGO"/>
     </div>
 	);	
