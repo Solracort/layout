@@ -4,7 +4,7 @@ import '../../src/App.css';
 export const English = () => {
         
                 return(
-                <div className="container">
+                <div className="container m-1">
                         <h1>CARLOS ORTIZ SANCHEZ</h1> 
                         <h3>Description </h3>
                         <hr/>
